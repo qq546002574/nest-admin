@@ -8,7 +8,7 @@
     "node": ">=16.20.2",
     "pnpm": ">=8.1.0"
   },
-  "scripts": {
+"scripts": {
     "postinstall": "npm run gen-env-types",
     "prebuild": "rimraf dist",
     "build": "nest build",
